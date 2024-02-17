@@ -1,0 +1,56 @@
+
+div{
+    padding: 12px;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 10ch;
+    animation: ping 2s cubic-bezier(0, 0, 0.2, 1) infinite ;
+    color:green;
+}
+@keyframes ping {
+    75%, 100%{
+        transform: scale(2);
+        opacity: 0;
+    }
+    
+}
+
+h2{
+    text-align: center;
+    color:red;
+    animation:ping 3s infinite;
+    font-size: 8cap;
+}
+
+.im{
+    text-align: center;
+    padding-top: 10px;
+    animation: rotation 2s infinite linear;
+}
+@keyframes rotation {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+body{
+    text-align: center;
+}
+
+a{
+    font-size: 5ch;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: solid;
+    text-emphasis-style: unset;
+    text-decoration: underline;
+    text-align: center;
+}
+a:hover{
+    cursor: help;
+}
